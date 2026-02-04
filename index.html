@@ -17,22 +17,34 @@
 
       <a-entity environment="preset: forest; lighting: point; ground: flat"></a-entity>
 
-      <a-plane position="-2 0.01 -5" rotation="-90 0 0" width="4" height="60" color="#333"></a-plane>
-      <a-plane position="0 0.02 -15" rotation="-90 0 0" width="40" height="3" color="#333"></a-plane>
-      <a-plane position="0 0.02 5" rotation="-90 0 0" width="40" height="3" color="#333"></a-plane>
-
-      <a-entity gltf-model="#largeBuilding1" position="-10 0 -25" scale="1.5 1.5 1.5"></a-entity>
-      <a-entity gltf-model="#lowBuilding" position="-10 0 -10"></a-entity>
-      <a-entity gltf-model="#largeBuilding2" position="-10 0 10"></a-entity>
+      <a-entity gltf-model="#largeBuilding1" 
+                position="-15 0 -25" 
+                scale="7.5 7.5 7.5"> </a-entity>
       
-      <a-entity gltf-model="#largeBuilding1" position="10 0 -25"></a-entity>
-      <a-entity gltf-model="#lowBuilding" position="8 0 -5"></a-entity>
-      <a-entity gltf-model="#largeBuilding2" position="12 0 15"></a-entity>
-
-      <a-entity gltf-model="#palmTree" position="-4 0 -15" scale="0.5 0.5 0.5"></a-entity>
-      <a-entity gltf-model="#regularTrees" position="4 0 -15" scale="0.5 0.5 0.5"></a-entity>
-      <a-entity gltf-model="#palmTree" position="5 0 5" scale="0.5 0.5 0.5"></a-entity>
-      <a-entity gltf-model="#regularTrees" position="-5 0 20" scale="0.5 0.5 0.5"></a-entity>
+      <a-entity gltf-model="#lowBuilding" 
+                position="-15 0 -5" 
+                scale="5 5 5">
+      </a-entity>
+      
+      <a-entity gltf-model="#largeBuilding2" 
+                position="-15 0 15" 
+                scale="5 5 5">
+      </a-entity>
+      
+      <a-entity gltf-model="#largeBuilding1" 
+                position="15 0 -25" 
+                scale="5 5 5">
+      </a-entity>
+      
+      <a-entity gltf-model="#lowBuilding" 
+                position="15 0 -5" 
+                scale="5 5 5">
+      </a-entity>
+      
+      <a-entity gltf-model="#largeBuilding2" 
+                position="15 0 15" 
+                scale="5 5 5">
+      </a-entity>
 
       <a-entity id="rig" position="0 1.6 25">
         <a-camera look-controls wasd-controls></a-camera>
